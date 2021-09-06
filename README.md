@@ -1,4 +1,4 @@
-# pem-web2021 /n
-Repository Pemprograman Berbasis Web /n
-Nama  :Rahadian Kristiyanto Rachman /n
-NIM   :A11.2020.12724
+# pem-web2021
+-Repository Pemprograman Berbasis Web
+-Nama  :Rahadian Kristiyanto Rachman
+-NIM   :A11.2020.12724
