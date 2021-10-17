@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Website-Ku 1.0</title>
+    <style>
+        body {
+            margin: 0%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav {
+            margin: 0%;
+        }
+
+
+        nav h1 {
+            float: left;
+            position: absolute;
+            color: antiquewhite;
+            padding-left: 20px;
+            padding-top: 10px;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+            padding-right: 20px;
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+        }
+
+        li a:hover {
+            background-color: #111111;
+        }
+
+        footer {
+            margin-top: 3em;
+            text-align: center;
+        }
+
+        .aboutMe {
+            max-width: 100vh;
+        }
+
+        .my_pic {
+            width: 100%;
+            height: auto;
+            margin-top: -90px;
+        }
+
+        .avatar-container {
+            justify-content: center;
+            display: flex;
+            padding-top: 50px;
+        }
+
+        .avatar {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+            border-radius: 50%;
+        }
+
+        .information {
+            margin: 10px;
+        }
+
+        .information a {
+            color: black;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <h1>rahadian.dev</h1>
+            </a>
+            <ul class="nav_links">
+                <li>
+                    <a href="cv/my_cv.pdf" target="_blank">Download CV</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/rahadian_kr" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://github.com/rahadiankr" target="_blank">GitHub</a>
+                </li>
+            </ul>
+    </header>
+    <main>
+        <section class="aboutMe">
+            <div class="avatar-container">
+                <div class="avatar">
+                    <img src="img/myPic.jpg" alt="" class="my_pic">
+                </div>
+            </div>
+
+            <div class="information">
+                <h1>About Me</h1>
+                <p>
+                    Hi I'm
+                    <b>Rahadian Kristiyanto Rachman</b>, you can call me
+                    <b>Rahadian</b> or
+                    <b>dian</b>, I'm currently pursuing a Bachelor's degree in Informatics (Computer Science) at
+                    <a href="https://www.dinus.ac.id/" target="_blank">Dian Nuswantoro University</a> . I was
+                    born and grew up in
+                    <a href="https://www.google.com/search?q=grobogan+jawa+tengah" target="_blank">Grobogan, Jawa
+                        Tengah</a>
+                    . I am interested in learning new things about the world of technology.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Bulid with ❤️ By Rahadian</p>
+    </footer>
+</body>
+
+</html>
