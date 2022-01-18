@@ -1,0 +1,37 @@
+.logo {
+    padding-top: 30%;
+}
+
+.login_logo {
+    padding-top: 10px;
+}
+
+.btn-daftar {
+    top: 30vw;
+    background-color: #469B4C;
+    border-color: #469B4C;
+}
+
+.btn-daftar:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.btn-daftar:active:focus {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.owl-prev {
+    left: -30px;
+}
+
+.owl-next {
+    right: -30px;
+}
+
+a {
+    text-decoration: none;
+}

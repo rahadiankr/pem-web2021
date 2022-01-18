@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <link rel="shortcut icon" href="source/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="source/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nyappbin</title>
+</head>
+
+<body>
+    <header style="background-color: #469B4C;">
+        <nav>
+            <a href="index.html">
+                <img class="home" src="source/logo.png" alt="#">
+            </a>
+            <a href="profil.html">
+                <img class="profile" src="source/profile.png" alt="#">
+            </a>
+            <ul>
+                <li>
+                    <a href="#artikel">Artikel</a>
+                </li>
+                <li>
+                    <a href="#toko">Toko</a>
+                </li>
+                <li>
+                    <a href="#footer">Tentang</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main id="home">
+        <div class="main">
+            <img src="source/nyappbin.png" class=" ms-auto" alt=" #" style="padding-top: 15vh; padding-left:53vh">
+            <p>Buat kalian para petani moderen
+                yang ingin memulai mengembangkan sawah
+                kami hadir untuk memberikan panduan mengolah swah.</p>
+        </div>
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn-daftar btn btn-primary position-absolute start-50 translate-middle"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Masuk
+        </button>
+
+        <!-- Modal login -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="background-color: #469B4C;">
+                    <div class="modal-header">
+                        <img src="source/logo.png"
+                            class="login_logo position-absolute top-0 start-50 translate-middle-x" alt="#">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Masuk</button>
+                            <a href="signup.html"><button type="button" class="btn btn-primary">Daftar</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Carousel Artikel -->
+    <div id="artikel" style="background-color: #EDDCB0;">
+        <h1 class="ms-auto pt-5 pb-3" style="text-align: center;">Artikel</h1>
+        <!-- Owl Carousel -->
+        <div class="container owl-carousel owl-theme">
+            <div class="item">
+                <a class="card"
+                    href="https://news.detik.com/kolom/d-5886477/transformasi-pertanian-ala-gobleg?_ga=2.13298608.626596428.1641719813-344312014.1640189371"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/1.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Transformasi Pertanian ala Gobleg</h4>
+                        <p class="card-text">Aceng Hidayat - detikNews
+                            Kamis, 06 Jan 2022 15:00 WIB</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="card"
+                    href="https://news.detik.com/berita/d-5882456/lanyalla-ekspor-pertanian-harus-tingkatkan-kesejahteraan-petani?_ga=2.39666596.626596428.1641719813-344312014.1640189371"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/2.jpg" alt="">
+                    <div class="card-body">
+                        <h4>LaNyalla: Ekspor Pertanian Harus Tingkatkan Kesejahteraan Petani</h4>
+                        <p class="card-text">Inkana Putri - detikNews
+                            Senin, 03 Jan 2022 17:34 WIB</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="card btn"
+                    href="https://finance.detik.com/berita-ekonomi-bisnis/d-5863118/bumn-ikut-genjot-sektor-pertanian-begini-caranya?_ga=2.243976322.626596428.1641719813-344312014.1640189371"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/3.jpg" style="background-size:cover;" alt="">
+                    <div class="card-body">
+                        <h4>BUMN Ikut Genjot Sektor Pertanian, Begini Caranya</h4>
+                        <p class="card-text">Aulia Damayanti - detikFinance
+                            Senin, 20 Des 2021 15:06 WIB
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="card"
+                    href="https://news.detik.com/berita-jawa-barat/d-5841230/erick-thohir-minta-petani-indonesia-melek-teknologi-jeli-lihat-peluang?_ga=2.244443010.626596428.1641719813-344312014.1640189371"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/4.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Erick Thohir Minta Petani Indonesia Melek Teknologi-Jeli Lihat Peluang
+                        </h4>
+                        <p class="card-text">Whisnu Pradana - detikNews
+                            Minggu, 05 Des 2021 12:14 WIB
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="card"
+                    href="https://news.detik.com/berita/d-5836463/kementan-diminta-stimulasi-anak-muda-agar-terjun-ke-sektor-pertanian?_ga=2.106548228.626596428.1641719813-344312014.1640189371"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/5.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Kementan Diminta Stimulasi Anak Muda agar Terjun ke Sektor Pertanian
+                        </h4>
+                        <p class="card-text">Atta Kharisma - detikNews
+                            Rabu, 01 Des 2021 21:21 WIB
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="card"
+                    href="https://finance.detik.com/berita-ekonomi-bisnis/d-5826848/belum-banyak-diterapkan-apa-untungnya-pertanian-organik-bagi-petani?_ga=2.106548228.626596428.1641719813-344312014.1640189371"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/6.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Belum Banyak Diterapkan, Apa Untungnya Pertanian Organik Bagi Petani?
+                        </h4>
+                        <p class="card-text">Siti Fatimah - detikFinance
+                            Kamis, 25 Nov 2021 14:45 WIB
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="card"
+                    href="https://jateng.suara.com/read/2022/01/06/231533/bendungan-randugunting-perkuat-ketahanan-pangan-tiga-kabupaten"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/7.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Pilihan Terpopuler News Lifestyle Indeks
+                            Bendungan Randugunting Perkuat Ketahanan Pangan Tiga Kabupaten</h4>
+                        <p class="card-text">Ronald Seger Prabowo Kamis, 06 Januari 2022 23:15 WIB</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="card"
+                    href="https://jogja.suara.com/read/2022/01/05/103453/sektor-pertanian-jadi-unggulan-setelah-pariwisata-dkpp-bantul-gagas-ip-400"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/8.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Sektor Pertanian Jadi Unggulan Setelah Pariwisata, DKPP Bantul Gagas IP 400</h4>
+                        <p class="card-text">Galih Priatmojo Rahmat jiwandono Rabu, 05 Januari 2022 10:34 WIB</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a class="card"
+                    href="https://kalbar.suara.com/read/2022/01/08/183624/jagung-menjadi-komoditas-unggulan-kedua-setelah-beras-di-landak"
+                    style="width: 18rem;">
+                    <img class="img-card" src="carousel/img/9.jpg" alt="">
+                    <div class="card-body">
+                        <h4>Jagung Menjadi Komoditas Unggulan Kedua Setelah Beras di Landak</h4>
+                        <p class="card-text">Bella Sabtu, 08 Januari 2022 18:36 WIB</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Carousel Toko -->
+        <div id="toko" style="background-color: #EDDCB0;">
+            <h1 class="ms-auto pt-5 pb-3" style="text-align: center;">Toko Pertanian</h1>
+            <!-- Owl Carousel -->
+            <div class="container owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/cangkul.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Cangkul</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/benih.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Benih Padi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/benih2.jpg" style="background-size:cover;" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Benih Jagung Hibrida</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/pupuk.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Pupuk NPK</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/pupuk2.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Pupuk Tanaman</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/semprot.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Semprotan Elektrik</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/traktor.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Mesin Traktor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/sedot.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Mesin Sedot Air</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modaltoko">
+                        <img src="carousel/img/Semprot.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-text">Semprotan manual</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal  -->
+            <div class="modal fade" id="modaltoko" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Pehatian</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Maaf Anda Harus Masuk Dahulu
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Masuk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Area -->
+            <footer class="text-center text-lg-start text-white" style="background-color: #3C6E57">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                    <!-- Section: Links -->
+                    <section id="footer"">
+                        <!--Grid row-->
+                        <div class=" row">
+                        <!-- Grid column -->
+                        <div class="" style="width: 60%;">
+                            <a href="index.html">
+                                <img class="homee" src="source/logo.png" alt="#">
+                            </a>
+                            <p class="pt-4">
+                                Alamat<br>
+                                Jl. Gajah Mada No.46, Grogoban, Jawatengah
+                            </p>
+                            <p>
+                                All contents of Nyappbin are protected by copyright.
+                            </p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none" />
+                        <hr class="w-100 clearfix d-md-none" />
+                        <hr class="w-100 clearfix d-md-none" />
+                        <div class="" style="width: 40%;">
+                            <h6 class="text-uppercase font-weight-bold mt-5" style="padding-left: 20vh;">Follow On
+                                Social
+                                Media</h6>
+                            <a class="btn btn-floating m-1" href="#!" role="button"><img src="source/ig.png" alt=""
+                                    style="padding-left: 10vh; width:90%"></i></a>
+                            <a class="btn btn-floating m-1" href="#!" role="button"><img src="source/twit.png" alt=""
+                                    style="width: 80%;"></i></a>
+                            <a class="btn btn-floating m-1" href="#!" role="button"><img src="source/fb.png" alt=""
+                                    style="width: 80%;"></i></a>
+                        </div>
+                </div>
+                </section>
+                <div class="text-center p-3">
+                    © 2022 Copyright:
+                    <a class="text-white" href="https://instagram.com/rahadian_kr">Rahadian's Website</a>
+                </div>
+            </footer>
+        </div>
+
+        <script src="carousel/jquery.js"></script>
+        <script src="carousel/owl.carousel.min.js"> </script>
+        <script src="carousel/script.js"></script>
+</body>
+
+</html>
